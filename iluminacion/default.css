@@ -1,0 +1,61 @@
+
+@font-face {
+    font-family: 'league_gothicregular';
+    src: url('fuentes/league_gothic-webfont.eot');
+    src: url('fuentes/league_gothic-webfont.eot?#iefix') format('embedded-opentype'),
+        url('fuentes/league_gothic-webfont.woff') format('woff'),
+        url('fuentes/league_gothic-webfont.ttf') format('truetype'),
+        url('fuentes/league_gothic-webfont.svg#league_gothicregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+a {
+    text-decoration: none;
+}
+h1 {
+	font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 40px 0;
+}
+header {
+    text-transform: uppercase;
+    background: hsl(203,87%,60%);
+    border-bottom: 1px solid hsl(203,87%,30%);
+}
+header h1 {
+    margin: 0;
+    font-size: 40px;
+    color: hsl(0,0%,100%);
+}
+nav ul {
+    height: 30px;
+    list-style: none;
+    text-align: center;
+    width: 520px;
+    margin: 0 auto 30px auto;
+    clear: both;
+}
+nav ul li a {
+    float: left;
+    width: 100px;
+    background: #38444b;
+    margin: 0 2px;
+    padding: 5px 0;
+    color: hsl(0,0%,100%);
+    box-shadow: 0 1px 3px hsla(0,0%,0%,0.5);
+}
+nav ul li a:hover, nav ul li a.activo {
+    float: left;
+    width: 100px;
+    background: #e8e8e9;
+    margin: 0 2px;
+    padding: 5px 0;
+    color: black;
+    box-shadow: 0 1px 3px hsla(0,0%,0%,0.5);
+}
+.contenedor {
+    width: 1020px;
+    height: 220px;
+    margin: 0 auto;
+}

@@ -1,0 +1,25 @@
+Before EMU Webmail will run properly, your Apache web server must be
+configured properly. It is common for Apache to work fine with EMU Webmail
+without any modifications. However, if you are experiencing problems running
+EMU Webmail, one of the first things you should do is check that your Apache
+configuration meets the guidelines set by this document.
+
+1. Make sure your Apache configuration has cgi script handling enabled. The
+easiest way to do this is to make sure you have a line like the following in
+one of your Apache config files:
+
+   AddHandler cgi-script .cgi
+
+It is not uncommon for that line to be commented out, thus preventing the
+default EMU Webmail installation from working. In the very least, your
+Apache configuration must allow for emumail.cgi to be executed as a CGI
+script. 
+
+*IMPORTANT* *IMPORTANT*
+
+It is very important that you do NOT place your EMUmail 'data' directory
+inside of your web server's document root. Accidently placing it in a
+web-accessible location will grant the entire internet population read
+access to your data directory. This means anybody will be able to retrieve
+your EMU Webmail license, and all information about your users and all your
+users' email. Be very careful.

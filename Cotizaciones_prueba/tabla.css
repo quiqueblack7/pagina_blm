@@ -1,0 +1,169 @@
+/*Tabla catalogo_prueba.php*/
+
+body {
+    padding-bottom: 20px;
+    font: 81.25% "Trebuchet MS", Arial, Helvetica, sans-serif;
+
+background: rgba(255,255,255,1);
+background: -moz-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(235,235,235,1) 100%);
+background: -webkit-gradient(left top, right top, color-stop(0%, rgba(255,255,255,1)), color-stop(100%, rgba(235,235,235,1)));
+background: -webkit-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(235,235,235,1) 100%);
+background: -o-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(235,235,235,1) 100%);
+background: -ms-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(235,235,235,1) 100%);
+background: linear-gradient(to right, rgba(255,255,255,1) 0%, rgba(235,235,235,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ebebeb', GradientType=1 );
+
+}
+
+
+#tform{
+    font-weight: bold;
+    font-size: 15px;
+    color: #000000;
+}
+
+
+
+.datagrid{
+    margin-top:0px;
+    
+background: rgba(255,255,255,1);
+background: -moz-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(235,235,235,1) 100%);
+background: -webkit-gradient(left top, right top, color-stop(0%, rgba(255,255,255,1)), color-stop(100%, rgba(235,235,235,1)));
+background: -webkit-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(235,235,235,1) 100%);
+background: -o-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(235,235,235,1) 100%);
+background: -ms-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(235,235,235,1) 100%);
+background: linear-gradient(to right, rgba(255,255,255,1) 0%, rgba(235,235,235,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ebebeb', GradientType=1 );
+
+}
+
+
+.datagrid table { 
+    margin:0 auto;
+    text-align: left; 
+    width: 1000px; 
+    border: 20px solid #FFE175; 
+    -webkit-border-radius: 20px; 
+    -moz-border-radius: 20px; 
+    border-radius: 20px;
+} 
+
+
+
+
+
+.datagrid table td, .datagrid table th { 
+    padding: 9px 8px; 
+}
+
+.datagrid table thead th {
+    
+background: rgba(166,47,3,1);
+background: -moz-linear-gradient(top, rgba(166,47,3,1) 0%, rgba(41,87,117,1) 100%);
+background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(166,47,3,1)), color-stop(100%, rgba(41,87,117,1)));
+background: -webkit-linear-gradient(top, rgba(166,47,3,1) 0%, rgba(41,87,117,1) 100%);
+background: -o-linear-gradient(top, rgba(166,47,3,1) 0%, rgba(41,87,117,1) 100%);
+background: -ms-linear-gradient(top, rgba(166,47,3,1) 0%, rgba(41,87,117,1) 100%);
+background: linear-gradient(to bottom, rgba(166,47,3,1) 0%, rgba(41,87,117,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a62f03', endColorstr='#295775', GradientType=0 );
+ 
+    color:#FFFFFF; 
+    font-size: 16px; 
+    font-weight: bold; 
+    border-left: 2px solid #1542BD;
+    -webkit-border-radius: 15px; 
+    -moz-border-radius: 15px; 
+    border-radius: 15px; 
+} 
+
+
+
+.datagrid table thead th:first-child { 
+    border: none;
+    background-color: #FFFFFF; 
+}
+
+/*.datagrid table tbody td { 
+color: #004666; 
+ 
+}*/
+
+#sombra{ 
+    background: #FFCDA8; 
+    color: #00608C; 
+    border-left: 2px solid #CFDBE0;
+    font-size: 12px;
+    font-weight: normal;
+}
+
+
+
+#sombra2{ 
+    background-color: #FFA768; 
+    color: #195977; 
+    border-left: 2px solid #CFDBE0;
+    font-size: 12px;
+    font-weight: normal;
+}
+
+
+
+.datagrid table tbody td:first-child { 
+    border-left: none;
+}
+
+.datagrid table tbody tr:last-child td { 
+    border-bottom: none; 
+}
+
+#caja_cat{
+
+
+    background: rgba(34,87,114,1);
+    background: -moz-linear-gradient(left, rgba(34,87,114,1) 0%, rgba(64,138,191,1) 50%, rgba(34,87,114,1) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(34,87,114,1)), color-stop(50%, rgba(64,138,191,1)), color-stop(100%, rgba(34,87,114,1)));
+    background: -webkit-linear-gradient(left, rgba(34,87,114,1) 0%, rgba(64,138,191,1) 50%, rgba(34,87,114,1) 100%);
+    background: -o-linear-gradient(left, rgba(34,87,114,1) 0%, rgba(64,138,191,1) 50%, rgba(34,87,114,1) 100%);
+    background: -ms-linear-gradient(left, rgba(34,87,114,1) 0%, rgba(64,138,191,1) 50%, rgba(34,87,114,1) 100%);
+    background: linear-gradient(to right, rgba(34,87,114,1) 0%, rgba(64,138,191,1) 50%, rgba(34,87,114,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#225772', endColorstr='#225772', GradientType=1 );
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3d8aa8', endColorstr='#3d8aa8', GradientType=1 );
+    border-radius: 10px 10px 10px 10px;
+    -moz-border-radius: 10px 10px 10px 10px;
+    -webkit-border-radius: 10px 10px 10px 10px;
+    border: 7px solid #2b4f69;
+
+    max-width: 500px;
+    font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", Charcoal, "Helvetica Inserat", "Bitstream Vera Sans Bold", "Arial Black", sans serif;
+    color: #BFDDE0;
+    font-size: 17;
+    padding: 5;
+}
+
+#caja_cat2{
+
+
+    background: rgba(45,33,105,1);
+    background: -moz-linear-gradient(left, rgba(45,33,105,1) 0%, rgba(104,91,212,1) 50%, rgba(45,33,105,1) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(45,33,105,1)), color-stop(50%, rgba(104,91,212,1)), color-stop(100%, rgba(45,33,105,1)));
+    background: -webkit-linear-gradient(left, rgba(45,33,105,1) 0%, rgba(104,91,212,1) 50%, rgba(45,33,105,1) 100%);
+    background: -o-linear-gradient(left, rgba(45,33,105,1) 0%, rgba(104,91,212,1) 50%, rgba(45,33,105,1) 100%);
+    background: -ms-linear-gradient(left, rgba(45,33,105,1) 0%, rgba(104,91,212,1) 50%, rgba(45,33,105,1) 100%);
+    background: linear-gradient(to right, rgba(45,33,105,1) 0%, rgba(104,91,212,1) 50%, rgba(45,33,105,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2d2169', endColorstr='#2d2169', GradientType=1 );
+
+    border-radius: 10px 10px 10px 10px;
+    -moz-border-radius: 10px 10px 10px 10px;
+    -webkit-border-radius: 10px 10px 10px 10px;
+    border: 7px solid #2b4f69;
+    width:auto;
+    max-width: 950px;
+    font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", Charcoal, "Helvetica Inserat", "Bitstream Vera Sans Bold", "Arial Black", sans serif;
+    color: #BFDDE0;
+    font-size: 17;
+    padding: 5;
+    text-align: center;
+}
+
+

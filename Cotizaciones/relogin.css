@@ -1,0 +1,88 @@
+#errorlog2
+{
+    width:480px;
+    margin-left: 40px;
+    margin-top: 160px; 
+    background: rgba(147,153,159,1);
+    background: -moz-linear-gradient(top, rgba(147,153,159,1) 0%, rgba(169,181,193,1) 8%, rgba(120,145,171,1) 17%, rgba(73,105,141,1) 36%, rgba(45,77,113,1) 53%, rgba(33,61,94,1) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(147,153,159,1)), color-stop(8%, rgba(169,181,193,1)), color-stop(17%, rgba(120,145,171,1)), color-stop(36%, rgba(73,105,141,1)), color-stop(53%, rgba(45,77,113,1)), color-stop(100%, rgba(33,61,94,1)));
+    background: -webkit-linear-gradient(top, rgba(147,153,159,1) 0%, rgba(169,181,193,1) 8%, rgba(120,145,171,1) 17%, rgba(73,105,141,1) 36%, rgba(45,77,113,1) 53%, rgba(33,61,94,1) 100%);
+    background: -o-linear-gradient(top, rgba(147,153,159,1) 0%, rgba(169,181,193,1) 8%, rgba(120,145,171,1) 17%, rgba(73,105,141,1) 36%, rgba(45,77,113,1) 53%, rgba(33,61,94,1) 100%);
+    background: -ms-linear-gradient(top, rgba(147,153,159,1) 0%, rgba(169,181,193,1) 8%, rgba(120,145,171,1) 17%, rgba(73,105,141,1) 36%, rgba(45,77,113,1) 53%, rgba(33,61,94,1) 100%);
+    background: linear-gradient(to bottom, rgba(147,153,159,1) 0%, rgba(169,181,193,1) 8%, rgba(120,145,171,1) 17%, rgba(73,105,141,1) 36%, rgba(45,77,113,1) 53%, rgba(33,61,94,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#93999f', endColorstr='#213d5e', GradientType=0 );
+    border-radius: 10px 10px 10px 10px;
+    -moz-border-radius: 10px 10px 10px 10px;
+    -webkit-border-radius: 10px 10px 10px 10px;
+    -webkit-box-shadow: 20px 25px 0px 1px rgba(37,39,54,1);
+    -moz-box-shadow: 20px 25px 0px 1px rgba(37,39,54,1);
+    box-shadow: 20px 25px 0px 1px rgba(37,39,54,1);
+}
+
+#padi
+{
+    padding: 20px 20px 20px 20px;
+}
+
+#letra
+{
+
+    font-family: Georgia, Times, “Times New Roman”, serif;
+    color: #00457A;
+    font-size: 15;
+    padding: 5;
+    font-weight: bold;
+    text-align: center;
+    text-shadow: 3px 3px 0px #BABABA;
+
+}
+
+.relogin {
+    width: 180px;
+    height: 30px;
+    margin-bottom: 25px;
+    margin-left: 110px;
+    padding: 0 15px 2px;
+    font-size: 12px;
+    border: 2px solid #ebebeb;
+    border-radius: 10px;  
+}
+
+
+.relogin-button{
+    position: relative;
+    vertical-align: top;
+    margin-left: 153px;
+    width: 130px;
+    height: 30px;
+    padding: 0;
+    font-size: 15px;
+    color: white;
+    text-align: center;
+    text-shadow: 0 1px 2px rgba(black, .25);
+    background: rgba(255,199,194,1);
+    background: -moz-linear-gradient(top, rgba(255,199,194,1) 0%, rgba(255,162,153,1) 5%, rgba(255,94,79,1) 13%, rgba(255,107,94,1) 29%, rgba(255,61,43,1) 48%, rgba(255,21,0,1) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(255,199,194,1)), color-stop(5%, rgba(255,162,153,1)), color-stop(13%, rgba(255,94,79,1)), color-stop(29%, rgba(255,107,94,1)), color-stop(48%, rgba(255,61,43,1)), color-stop(100%, rgba(255,21,0,1)));
+    background: -webkit-linear-gradient(top, rgba(255,199,194,1) 0%, rgba(255,162,153,1) 5%, rgba(255,94,79,1) 13%, rgba(255,107,94,1) 29%, rgba(255,61,43,1) 48%, rgba(255,21,0,1) 100%);
+    background: -o-linear-gradient(top, rgba(255,199,194,1) 0%, rgba(255,162,153,1) 5%, rgba(255,94,79,1) 13%, rgba(255,107,94,1) 29%, rgba(255,61,43,1) 48%, rgba(255,21,0,1) 100%);
+    background: -ms-linear-gradient(top, rgba(255,199,194,1) 0%, rgba(255,162,153,1) 5%, rgba(255,94,79,1) 13%, rgba(255,107,94,1) 29%, rgba(255,61,43,1) 48%, rgba(255,21,0,1) 100%);
+    background: linear-gradient(to bottom, rgba(255,199,194,1) 0%, rgba(255,162,153,1) 5%, rgba(255,94,79,1) 13%, rgba(255,107,94,1) 29%, rgba(255,61,43,1) 48%, rgba(255,21,0,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffc7c2', endColorstr='#ff1500', GradientType=0 );
+    -webkit-box-shadow: 5px 5px 0px 0px rgba(15,27,36,1);
+    -moz-box-shadow: 5px 5px 0px 0px rgba(15,27,36,1);
+    box-shadow: 5px 5px 0px 0px rgba(15,27,36,1);
+    border: 0;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.relogin-button:active{
+    -moz-box-shadow:5px 5px 20px rgba(15,27,36,1);
+    -webkit-box-shadow:5px 5px 20px rgba(15,27,36,1);
+    box-shadow:5px 5px 20px rgba(15,27,36,1);         
+}
+
+#letra:active{    
+    color: #000000;
+    text-shadow: 3px 3px 0px #2B2B2B;
+}

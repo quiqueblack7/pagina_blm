@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<menu>
+  <item title="Inicio" link="page7.php"/>
+  <item title="Index2" link="Best_Light_Mexico.php"/>
+  <item title="Best Light Mexico" link="Best_Ligth_Mexico.php"/>
+  <item title="Proyectos" link="Proyectos2.php">
+    <item title="Caneguin" link="page1.php"/>
+    <item title="Super via" link="page3.php"/>
+    <item title="Parque Lineal" link="page4.php"/>
+    <item title="Circuito exterior" link="page5.php"/>
+    <item title="Arabia" link="page6.php"/>
+  </item>
+  <item title="Conocenos" link="Conocenos.php"/>
+  <item title="Catalogo" link="Catalogo.php"/>
+  <item title="Calendario de Cursos" link="Capacitacion.php"/>
+  <item title="Videos" link="Videos.php"/>
+  <item title="jgfd" link="lkjhgfd.php"/>
+  <item title="Contacte conmigo" link="Contacto.php"/>
+  <item title="Registro" link="registro.php"/>
+  <item title="Productos2" link="productos.php"/>
+  <item title="Capacitaciones2" link="capacitacion.php"/>
+  <item title="Quienes Somos2" link="quienes_somos.php"/>
+  <item title="Videos" link="videos.php"/>
+  <item title="Contactanos2" link="contactanos.php"/>
+  <item title="BLM4080145" link="blm_eg_40.php"/>
+  <item title="BLM300" link="blm_eg_300.php"/>
+  <item title="BLM500" link="blm_eg_500.php"/>
+</menu>

@@ -1,0 +1,13 @@
+# Index created by AutoSplit for /srv/www/vhosts/kvas.sa.plesk.ru/cgi-bin/EmuWebmail-7.0.1/modules/built_modules/Text/CSV.pm
+#    (file acts as timestamp)
+package Text::CSV;
+sub version  ;
+sub new  ;
+sub status  ;
+sub error_input  ;
+sub string  ;
+sub fields  ;
+sub combine  ;
+sub parse  ;
+sub _bite  ;
+1;

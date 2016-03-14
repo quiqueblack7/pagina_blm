@@ -1,0 +1,301 @@
+html,body{
+height:100%;
+}
+
+
+
+#inicio{
+  font-family: Arial, sans-serif;
+  font-size: 8pt;
+  font-weight: bold;
+  color: #FFFFFF;
+  margin: 0 auto;
+} 
+
+a{text-decoration:none}
+a:hover{text-decoration: underline ; color:black;} 
+
+td{ text-align:center}
+
+#texto{
+font-family: Arial,Helvetica,sans-serif;
+   font: 12px, 18px;  
+
+color: #636467;
+margin: 0 auto;
+} 
+
+#texto1{
+font-family: Arial,Helvetica,sans-serif;
+   font: 12px, 18px;  
+
+color: #636467;
+margin: 0 auto;
+} 
+
+#textoo{
+font-family: Arial,Helvetica,sans-serif;
+   font-size: 15pt;  
+ font-weight: bold;
+color: #636467;
+margin: 0 auto;
+}
+
+
+#pie{
+font-family: Arial, sans-serif;
+   font-size: 8pt;  
+ font-weight: bold;
+color: #FFFFFF;
+margin: 0 auto;
+} 
+
+#texto2{
+font-family: Arial, sans-serif;
+   font-size: 11pt;  
+ font-weight: bold;
+margin: 0 auto;
+color: #636467
+} 
+
+
+#texto3{
+font-family: Eras Light ITC, sans-serif;
+text-decoration: none;
+border-style:solid;
+border-bottom: 9px solid #333333;
+border-top: 0px solid black;
+border-left: 0px solid black;
+border-right: 0px solid black;
+
+   font-size: 12pt;  
+ font-weight: bold;
+color: #000000;
+margin: 0 auto;
+}
+
+#texto4{
+font-family: Arial,Helvetica,sans-serif;
+   font-size: 10pt;  
+
+color: #636467;
+margin: 0 auto;
+} 
+
+#texto5{
+font-family: Arial,Helvetica,sans-serif;
+   font-size: 15pt;  
+
+color: black;
+margin: 0 auto;
+
+} 
+
+#texto6{
+font-family: Arial,Helvetica,sans-serif;
+   font-size: 15pt;  
+ 
+color: #636467;
+margin: 0 auto;
+} 
+
+#brillo { 
+  opacity: 1.0; 
+} 
+
+#brillo:hover { 
+  opacity: 0.5; 
+}
+
+ 
+#page-wrap{
+width: 930px;
+margin: auto;
+height: auto;
+min-height:100%;
+}
+ 
+#page-wrap:after{
+width: 100%;
+height:70px;
+display:block;
+clear:both;
+}
+
+
+footer {
+    width: 930px;
+height: 100px;
+margin: -70px auto 0;
+ 
+}
+
+
+.boton
+{
+border:2px solid;
+border-radius:25px;
+} 
+
+
+
+#contacto{
+	font-family:Eras Light ITC, sans-serif;
+	font-size:14pt;
+    color:#000000;
+    margin: 0 auto;
+  text-align:left;
+}
+
+#contactot{
+	font-family:Eras Light ITC, sans-serif;
+	font-size:16pt;
+	 font-weight: bold;
+    color:#000000;
+    margin: 0 auto;
+   text-align:left;
+}
+
+#contactott{
+	font-family:Eras Light ITC, sans-serif;
+	font-size:20pt;
+	 font-weight: bold;
+    color:#000000;
+    margin: 0 auto;
+    text-align:left;
+}
+
+
+
+
+#containerEx5 {
+  background: #FFFFFF;
+
+}
+#ex5 {
+  width: 400px;
+  margin: 0 auto;
+ 
+}
+
+#ex5 img {
+  margin: 25px;
+  opacity: 0.8;
+ 
+  
+  /*Transition*/
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  
+  /*Reflection*/
+  -webkit-box-reflect: below 0px -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(.7, transparent), to(rgba(0,0,0,0.1)));
+}
+
+
+#ex5 img:hover {  
+   opacity: 1;
+   
+   /*Reflection*/
+  -webkit-box-reflect: below 0px -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(.7, transparent), to(rgba(0,0,0,0.4)));
+ 
+   /*Glow*/
+  -webkit-box-shadow: 0px 0px 20px rgba(255,255,255,0.8);
+  -moz-box-shadow: 0px 0px 20px rgba(255,255,255,0.8);
+  box-shadow: 0px 0px 20px rgba(255,255,255,0.8);
+}  
+
+#logos_centrados
+{
+	margin: 0 auto;
+	width: 60em;
+	margin: 1em;
+}
+
+
+.break
+{
+	clear: both;
+}
+
+.texto7{
+text-shadow: grey 1px -2px 1.5px; 
+	font-family:DroidSansRegular;
+	font-size: 15pt;  
+	color: #000000;
+	position:relative;
+	top:-60px;
+	left:-40px;
+	text-decoration: overline; 
+	
+	
+}
+
+#texto8{
+font-family: Arial,Helvetica,sans-serif;
+  font-size: 20pt;
+  font-weight: bold;
+  color: #636467;
+  margin: 0 auto;
+
+}
+
+#texto9{
+ font-family: Arial,Helvetica,sans-serif;
+   font-size: 8pt;  
+color: black;
+margin: 0 auto;
+
+
+}
+
+
+#contenedor{
+        margin: 0 auto;
+		margin-top: 2em;
+		width: 63.8em;
+		height:4.5em;
+		padding:.5em;
+		box-sizing:border-box;
+		background:#E8E8E9;
+		
+}
+
+#youtube{
+	position:relative;
+	float:right;
+}
+
+	
+
+
+#arribaa{
+        margin: 0 0 0 13em;
+		
+		width: 63.8em;
+		height:3.0em;
+		padding:.5em;
+		box-sizing:border-box;
+		background:#38444b;		
+		
+}
+
+#buscar{
+        
+		
+		width: 17.8em;
+		height:1.5em;
+		position:relative;
+	float:right;
+		
+		
+		
+}
+
+
+
+
+}
+
+
+

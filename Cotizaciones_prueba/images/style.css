@@ -1,0 +1,486 @@
+/*
+    designed by WebTemplateOcean.com (http://www.webtemplateocean.com/)
+    released under Creative Commons Attribution-ShareAlike 3.0 license
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    padding-bottom: 20px;
+    font: 81.25% "Trebuchet MS", Arial, Helvetica, sans-serif;
+    color: #C7D8E8;
+    background: #272B46;
+}
+
+.ic {
+	border:0;
+	float:right;
+	background:#fff;
+	color:#f00;
+	width:50%;
+	line-height:10px;
+	font-size:10px;
+	margin:-220% 0 0 0;
+	overflow:hidden;
+	padding:0
+}
+
+h1 {
+    padding-top: 30px;
+    width: 550px;
+    font-weight: normal;
+    font-size: 38px;
+    line-height: 52px;
+    text-align: center;
+    color: #F6F6DE;
+}
+
+h1 a, h1 a:hover {
+    text-decoration: none;
+    font-weight: normal;
+    color: #F6F6DE;
+}
+
+p {
+    padding: 8px 0;
+    line-height: 1.4em;
+    text-align: justify;
+}
+
+a {
+    font-weight: bold;
+    text-decoration: none;
+    color: #FBB172;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+ul {
+    list-style: none;
+}
+
+/* page */
+
+#page {
+    position: relative;
+    margin: 0 auto;
+    width: 950px;
+}
+
+#header {
+    height: 112px;
+    background: url(images/header.jpg) no-repeat bottom left;
+}
+
+#logo {
+    text-decoration: none;
+    color: #5E5839;
+    background: #F5E6A0 url(images/logo.gif) no-repeat;
+      }
+
+/* menu */
+
+#menu {
+    position: absolute;
+    top: 30px;
+    left: 750px;
+    width: 200px;
+    height: 52px;
+    background: #1B2024 url(images/menu.jpg) no-repeat;
+    border-radius: 15px
+}
+
+#menu ul {
+    list-style: none;
+    padding: 11px 50px;
+}
+
+#menu ul li {
+    margin: 0 0 0 -10px;
+    padding: 0;
+    display: block;
+    float: left;
+}
+
+#menu ul li a {
+    display: block;
+    float: left;
+    width: 126px;
+    height: 30px;
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    text-decoration: none;
+    color: #FCFFFF;
+}
+
+#menu ul li a.active, #menu ul li a:hover {
+    text-decoration: none;
+    color: #5E5839;
+    background: #F5E6A0 url(images/menuover.gif) no-repeat;
+}
+
+/* intro */
+
+#intro {
+    height: 320px;
+    padding-left: 390px;
+    background: #B0D9F9 url(images/intro.jpg) no-repeat;
+}
+
+#intro h2 {
+    padding: 40px 0 10px 0;
+    font-weight: normal;
+    font-size: 36px;
+    color: #272B46;
+}
+
+#intro p {
+    padding-right: 50px;
+    font-size: 16px;
+    line-height: 21px;
+    color: #6570B6;
+}
+
+a.button {
+    display: block;
+    width: 180px;
+    height: 50px;
+    margin: 25px 0 0 120px;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 44px;
+    text-align: center;
+    text-decoration: none;
+    color: White;
+    background: url(images/button.gif) no-repeat;
+}
+
+/* main */
+
+#main {
+    background: #4C5070 url(images/main.gif) repeat-y;
+}
+
+/* sidebar */
+
+#sidebar {
+    float: left;
+    width: 244px;
+    padding: 25px 30px 30px 30px;
+    background: url(images/sidebar.jpg) no-repeat;
+}
+
+#sidebar h2 {
+    font-weight: normal;
+    font-size: 30px;
+    color: #0B2161;
+	 margin-left:80px;
+}
+
+#lol {
+    font-weight: normal;
+    font-size: 12px;
+    color: #000000;
+}
+
+#sidebar ul {
+    padding: 16px 0;
+}
+
+#sidebar ul li {
+    padding: 3px 0;
+}
+
+#sidebar ul li a {
+    display: block;
+    padding: 0 0 0 18px;
+    font-weight: normal;
+    line-height: 1.4em;
+    text-decoration: none;
+    color: #EB8400;
+    background: url(images/li.gif) no-repeat 25px 15px;
+    
+}
+
+#sidebar ul li a:hover {
+    text-decoration: none;
+    color: #6791B8;
+}
+
+#sidebar .box {
+    padding: 8px 0;
+}
+
+#sidebar p {
+    color: #70748D;
+}
+
+/* content */
+
+#content {
+    float: right;
+    width: 566px;
+    padding: 20px 40px 20px 40px;
+    background: url(images/content.jpg) no-repeat;
+}
+
+.post {
+    padding-bottom: 20px;
+}
+
+#content h2 {
+    font-weight: normal;
+    font-size: 30px;
+    color: #A9D0F5;
+}
+
+#content h2 a, #content h2 a:hover {
+    font-weight: normal;
+    text-decoration: none;
+    color: #98B8D5;
+}
+
+.postmeta {
+    padding-top: 30px;
+    font-size: .923em;
+    font-weight: bold;
+    color: White;
+}
+
+.entry {
+}
+
+#content ul {
+    padding: 8px 0;
+}
+
+#content ul li {
+    padding: 0 0 0 18px;
+    line-height: 1.4em;
+    text-align: justify;
+    background: url(images/li2.gif) no-repeat 0 3px;
+}
+
+#content img {
+    float: left;
+    display: block;
+    margin: 30px 65px 20px 40px;
+    
+}
+
+#cliente {
+   float: left;
+   margin-right:35px;
+   margin-left:20px;
+   margin-top:30px;
+   font-family:Georgia,serif,Times; 
+   font-size:16px; 
+   font-weight: bold;
+   color: #FAAC58;
+   
+}
+
+.clearing {
+    clear: both;
+    height: 1px;
+    overflow: hidden;
+}
+
+/* footer */
+
+#footer {
+    clear: both;
+    background: url(images/footer.gif) repeat-y;
+}
+
+#clearingfooter {
+    clear: both;
+    height: 2px;
+    overflow: hidden;
+    background: url(images/footer2.gif) no-repeat;
+}
+
+#footerleft {
+    float: left;
+    width: 244px;
+    padding: 30px;
+    background: #AECAE0;
+}
+
+#footerleft p {
+    text-align: center;
+    color: #646883;
+}
+
+#footerright {
+    float: right;
+    width: 566px;
+    padding: 30px 40px;
+    background: #727992;
+}
+
+
+
+/* LOG IN */
+
+
+input {
+  font-family: inherit;
+  color: black;
+}
+
+.sign-up-input {
+  width: 280px;
+  height: 50px;
+  margin-bottom: 25px;
+  margin-left: 60px;
+  padding: 0 15px 2px;
+  font-size: 17px;
+   border: 2px solid #ebebeb;
+  border-radius: 15px;  
+}
+
+
+.sign-up-button {
+  position: relative;
+  vertical-align: top;
+  margin-left: 80px;
+  width: 280px;
+  height: 50px;
+  padding: 0;
+  font-size: 22px;
+  color: white;
+  text-align: center;
+  text-shadow: 0 1px 2px rgba(black, .25);
+  background: #f0776c;
+  border: 0;
+   border-radius: 15px;
+  cursor: pointer;
+
+  
+}
+
+
+
+
+
+
+
+/* LIST #8 */
+#list8 {  }
+
+#list8 ul { 
+list-style:none; 
+}
+
+
+#list8 p {
+margin-left: 20px;
+font-family:Georgia,serif,Times; 
+font-size:20px; 
+margin-top: 20px;
+color:#bfe1f1;
+    
+}
+
+
+
+#list8 ul li a { 
+display:block; 
+width:200px; 
+height:60px; 
+background-color:#0B173B; 
+border-left:10px solid #045FB4; 
+border-right:10px solid #045FB4; 
+padding-left:30px;
+text-decoration:none; 
+color:#bfe1f1; 
+border-radius: 15px;
+}
+
+
+
+
+#list8 ul li a:hover {  
+-moz-transform:rotate(-3deg); 
+-moz-box-shadow:10px 10px 20px #000000;
+-webkit-transform:rotate(-5deg); 
+-webkit-box-shadow:10px 10px 20px #000000;
+transform:rotate(-5deg); 
+box-shadow:10px 10px 20px #000000; 
+}
+
+#addcliente{
+margin-top:220px;
+margin-bottom:35px;
+margin-left:50px;
+font-family:Georgia,serif,Times; 
+font-size:20px; 
+color:#bfe1f1;
+font-weight: bold;
+}
+
+
+
+/* ALTA USUARIO FORMULARIO */
+
+
+
+.formu {
+  width: 250px;
+  height: 50px;
+  margin-bottom: 25px;
+  margin-left: 10px;
+  
+  padding: 0 5px 2px;
+  font-size: 14px;
+  border: 2px solid #ebebeb;
+  border-radius: 15px;  
+}
+
+
+.formu-button {
+  position: relative;
+  vertical-align: top;
+  margin-left: 230px;
+  width: 100px;
+  height: 50px;
+  padding: 0;
+  font-size: 22px;
+  color: white;
+  text-align: center;
+  text-shadow: 0 1px 2px rgba(black, .25);
+  background: #f0776c;
+  border: 0;
+   border-radius: 15px;
+  cursor: pointer;
+
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

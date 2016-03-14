@@ -1,0 +1,165 @@
+
+=head1 INSTALLATION
+
+
+=head2 UNIX
+
+- B<Unpack the archive>
+
+- B<perl Makefile.PL>
+
+You will be asked if you want to compile in support for Apache mod_perl. If
+you say yes, the source of Apache is searched (for headerfiles). If 
+it can't found, please specify the basepath. Please make sure 
+mod_perl is already installed. If you have installed mod_perl-0.96 or
+higher, Makefile.PL automatically suggests the same source path as was 
+used to build mod_perl.
+
+- B<make>
+
+- B<make test>
+
+- B<make install>
+
+B<NOTE 1:> (only Embperl-1.2b1 or higher) For using session handling you need
+Apache::Session-0.17 or higher. If possible use Apache::Session 1.52 or higher.
+
+B<NOTE 2:> I<Embperl> runs without additional Perl modules, but the C<make test>
+needs the following modules to work:
+
+=over 4
+
+=item * URI
+
+=item * MIME::Base64 
+
+=item * HTML::Parser 
+
+=item * HTML::HeadParser 
+
+=item * Digest::MD5 
+
+=item * libnet 
+
+=item * libwww 
+
+=item * libwin32 (only Win32) 
+
+=back
+
+B<NOTE 3:> I<EmbperlObject> needs the following modules to work:
+
+=over 4
+
+=item * File::Spec
+
+=back
+
+If you have already successfully build and tested C<mod_perl> all modules
+will already be there.
+
+
+
+
+
+=head2 WIN 32
+
+I have tested the offline mode on Windows 95 with a Microsoft Visual C++ 4.2
+compiler and I have succesfully run Embperl with apache_1.3b5-1.3.9 / 
+mod_perl-1.12-1.21 / perl5.004_04-perl5.005 (without threads) on Windows NT
+with VC++ 5.0. 
+
+B<NOTE:> It was necessary for me to compile perl5.004_04 with the VC++ on my own
+to get it to run with Apache and mod_perl, while I was able to use the binary
+distribution (/authors/id/GSAR/perl5.00402-bindist04-bc.tar.gz) of Perl for
+offline testing under Win 95.
+
+B<NOTE:> You need mod_perl >= 1.12 on win32
+
+
+On Windows 95/NT you have to do the following:
+
+B<perl Makefile.PL>
+
+B<nmake> (you must have the c compiler in your path)
+
+if you get an error about compiling Embperl.c. Edit Embperl.c and change
+
+-#line  "Embperl.xs"
+
+to
+
++#line  1 "Embperl.xs"
+
+now re-run nmake and it should compile.
+
+B<nmake test>
+
+B<NOTE:> nmake test needs libwin32, libwww and HTML::Parser installed to work
+
+B<nmake install>
+
+B<NOTE 1:> (only Embperl-1.2b1 or higher) For using session handling you need
+Apache::Session-0.17 or higher. If possible use Apache::Session 1.52 or higher.
+
+B<NOTE 2:> I<Embperl> runs without additional Perl modules, but the C<make test>
+needs the following modules to work:
+
+=over 4
+
+=item * URI
+
+=item * MIME::Base64 
+
+=item * HTML::Parser 
+
+=item * HTML::HeadParser 
+
+=item * Digest::MD5 
+
+=item * libnet 
+
+=item * libwww 
+
+=item * libwin32 (only Win32) 
+
+=back
+
+B<NOTE 3:> I<EmbperlObject> needs the following modules to work:
+
+=over 4
+
+=item * File::Spec
+
+=back
+
+If you have already successfully build and tested C<mod_perl> all modules
+will already be there.
+
+
+
+=head2 Further Documentation (english)
+
+See L<"perldoc Features"|"Features.pod"> for list of Embperls features 
+
+See L<"perldoc Intro"|"Intro.pod"> for an step by step 
+introduction to Embperl.
+
+See L<"perldoc Embperl"|"Embperl.pod"> for complete documentation.
+
+See the L<"eg/"|"Examples.pod"> directory for examples.
+
+See L<"perldoc Faq"|"Faq.pod"> for Frequently Asked Questions.
+
+or you can view it online on http://perl.apache.org/embperl/
+
+=head2 Further Documentation (german)
+
+See B<perldoc FeaturesD> for list of Embperls features 
+
+See B<perldoc IntroD> for an step by step 
+introduction to Embperl.
+
+See B<perldoc EmbperlD> for complete documentation.
+
+or you can view it online on http://www.ecos.de/embperl/

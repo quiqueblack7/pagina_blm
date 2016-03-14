@@ -1,0 +1,56 @@
+Webmail has integrated conversion capabilities for upgrading 2.x user db
+files and directories into the new (and very different) db file format. At
+this current time we have not been able to thoroughly test conversion from
+all file types (db files in perl can take the form of ndbm, gdbm, sdbm,
+odbm, db_file which itself has 2 different and incompatible versions). We
+have successfully tested conversion from 2.x db_file types, and believe that
+for most others will also work. In order to convert your 2.x version user
+directories please follow these steps:
+
+PLEASE follow these directions as data loss may result otherwise.
+
+1. We advise, if space permits, to backup 2.x user directories. One way to
+ensure safety of data is to copy all the 2.x user directories to a new path
+and have Webmail run with that new path rather than working on the
+originals.
+
+2. Edit the site.emu file and indicate in the 'convert2x_file_type' field
+the file type that your 2.x distribution utilized. Please use one of
+DB_File, NDBM, GDBM, ODBM, SDBM. If you're not sure which file type you're
+using, we'll be glad to help; email us the file called "msgdata.xxx" from
+one of your user directories and we should be able to tell what type it
+is... (here the 'xxx' extension means that it could be some extension or
+maybe no extension at all)
+
+3. Copy the entire contents of each user's directory to a new path, making
+sure that Webmail's init.emu points to that default new path. By default
+Webmail will create user directories in $page_root/homes, where $page_root
+is defined by the init.emu file.
+
+4. When copying the user directory's contents, *make sure* to rename the
+messages directory to messages.old. This is VERY important, as we don't want
+to confuse the "old" messages directory with the "new" one. It may be very
+helpful to create a shell script which goes thru each directory, copies its
+content to a new path, and then renames messages to messages.old. Also make
+sure that contents are copied preserving the original permissions, so that
+Webmail doesn't have trouble reading and writing on the new directories (in
+unix, use "cp -dpf" for simple files and "cp -dpfR" for directories).
+
+These are the basic steps needed to prepare for a conversion. The conversion
+is integrated and automatic and is driven by the presence of the addrbook,
+options, msgdata, filters db files and the folders and messages.old
+directories. Upon login, Webmail will check the user's directory for these
+files and convert those individually, and then will DELETE those original
+files. Since the conversion is performed automatically based on the presence
+of these files it is possible to actually force a new conversion at ANY time
+by simply copying the desired file (say addrbook or options) to the user's
+directory, and on the next login the information therein will be merged into
+Webmail's data.
+
+One other note is the use of the "save mail locally option". The user's
+INBOX from 2.x WILL NOT be converted over UNLESS that user has selected the
+option to "save mail locally". The reasoning behind this is that if mail is
+kept on the POP server, then it'll be there and availble for Webmail to
+pickup. However if the "save mail locally" option is set for a particular
+user, then the old inbox contents will be merged in.
+

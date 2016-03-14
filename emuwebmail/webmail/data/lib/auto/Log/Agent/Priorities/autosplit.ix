@@ -1,0 +1,7 @@
+# Index created by AutoSplit for /srv/www/vhosts/kvas.sa.plesk.ru/cgi-bin/EmuWebmail-7.0.1/modules/built_modules/Log/Agent/Priorities.pm
+#    (file acts as timestamp)
+package Log::Agent::Priorities;
+sub prio_from_level  ;
+sub level_from_prio  ;
+sub priority_level  ;
+1;

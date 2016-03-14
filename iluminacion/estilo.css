@@ -1,0 +1,812 @@
+html,body{
+height:100%;
+}
+
+
+
+#inicio{
+  font-family: Arial, sans-serif;
+  font-size: 8pt;
+  font-weight: bold;
+  color: #FFFFFF;
+  margin: 0 auto;
+} 
+
+a{text-decoration:none}
+a:hover{text-decoration: underline ; color:white;} 
+
+td{ text-align:center}
+
+#texto{
+font-family: Arial,Helvetica,sans-serif;
+   font: 12px, 18px;  
+
+color: #636467;
+margin: 0 auto;
+} 
+
+#texto1{
+font-family: Arial,Helvetica,sans-serif;
+   font: 12px, 18px;  
+
+color: #636467;
+margin: 0 auto;
+} 
+
+#textoo{
+font-family: Arial,Helvetica,sans-serif;
+   font-size: 15pt;  
+ font-weight: bold;
+color: #636467;
+margin: 0 auto;
+}
+
+
+#pie{
+font-family: Arial, sans-serif;
+   font-size: 8pt;  
+ font-weight: bold;
+color: #FFFFFF;
+margin: 0 auto;
+} 
+
+#texto2{
+font-family: Arial, sans-serif;
+   font-size: 11pt;  
+ font-weight: bold;
+margin: 0 auto;
+color: #636467
+} 
+
+
+#texto3{
+font-family: Eras Light ITC, sans-serif;
+text-decoration: none;
+border-style:solid;
+border-bottom: 9px solid #333333;
+border-top: 0px solid black;
+border-left: 0px solid black;
+border-right: 0px solid black;
+
+   font-size: 12pt;  
+ font-weight: bold;
+color: #000000;
+margin: 0 auto;
+}
+
+#texto4{
+font-family: Arial,Helvetica,sans-serif;
+   font-size: 10pt;  
+
+color: #636467;
+margin: 0 auto;
+} 
+
+#texto5{
+font-family: Arial,Helvetica,sans-serif;
+   font-size: 15pt;  
+
+color: black;
+margin: 0 auto;
+
+} 
+
+#texto6{
+font-family: Arial,Helvetica,sans-serif;
+   font-size: 15pt;  
+ 
+color: #636467;
+margin: 0 auto;
+} 
+
+#brillo { 
+  opacity: 1.0; 
+} 
+
+#brillo:hover { 
+  opacity: 0.5; 
+}
+
+ 
+#page-wrap{
+width: 930px;
+margin: auto;
+height: auto;
+min-height:100%;
+}
+ 
+#page-wrap:after{
+width: 100%;
+height:70px;
+display:block;
+clear:both;
+}
+
+
+footer {
+    width: 930px;
+height: 100px;
+margin: -70px auto 0;
+ 
+}
+
+
+.boton
+{
+border:2px solid;
+border-radius:25px;
+} 
+
+
+
+#contacto{
+	font-family:Eras Light ITC, sans-serif;
+	font-size:14pt;
+    color:#000000;
+    margin: 0 auto;
+  text-align:left;
+}
+
+#contactot{
+	font-family:Eras Light ITC, sans-serif;
+	font-size:16pt;
+	 font-weight: bold;
+    color:#000000;
+    margin: 0 auto;
+   text-align:left;
+}
+
+#contactott{
+	font-family:Eras Light ITC, sans-serif;
+	font-size:20pt;
+	 font-weight: bold;
+    color:#000000;
+    margin: 0 auto;
+    text-align:left;
+}
+
+
+
+
+#containerEx5 {
+  background: #FFFFFF;
+
+}
+#ex5 {
+  width: 400px;
+  margin: 0 auto;
+ 
+}
+
+#ex5 img {
+  margin: 25px;
+  opacity: 0.8;
+ 
+  
+  /*Transition*/
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  
+  /*Reflection*/
+  -webkit-box-reflect: below 0px -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(.7, transparent), to(rgba(0,0,0,0.1)));
+}
+
+
+#ex5 img:hover {  
+   opacity: 1;
+   
+   /*Reflection*/
+  -webkit-box-reflect: below 0px -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(.7, transparent), to(rgba(0,0,0,0.4)));
+ 
+   /*Glow*/
+  -webkit-box-shadow: 0px 0px 20px rgba(255,255,255,0.8);
+  -moz-box-shadow: 0px 0px 20px rgba(255,255,255,0.8);
+  box-shadow: 0px 0px 20px rgba(255,255,255,0.8);
+}  
+
+#logos_centrados
+{
+	margin: 0 auto;
+	width: 60em;
+	margin: 1em;
+}
+
+
+.break
+{
+	clear: both;
+}
+
+.texto7{
+text-shadow: grey 1px -2px 1.5px; 
+	font-family:DroidSansRegular;
+	font-size: 15pt;  
+	color: #000000;
+	position:relative;
+	top:-60px;
+	left:-40px;
+	text-decoration: overline; 
+	
+	
+}
+
+#texto8{
+font-family: Arial,Helvetica,sans-serif;
+  font-size: 20pt;
+  font-weight: bold;
+  color: #636467;
+  margin: 0 auto;
+
+}
+
+#texto9{
+ font-family: Arial,Helvetica,sans-serif;
+   font-size: 8pt;  
+color: black;
+margin: 0 auto;
+
+
+}
+
+
+#contenedor{
+        margin: 0 auto;
+		margin-top: 2em;
+		width: 63.8em;
+		height:4.5em;
+		padding:.5em;
+		box-sizing:border-box;
+		background:#E8E8E9;
+		
+}
+
+#youtube{
+	position:relative;
+	float:right;
+}
+
+	
+
+
+#arribaa{
+        margin: 0 auto;
+		
+		width: 63.8em;
+		height:3.0em;
+		padding:.5em;
+		box-sizing:border-box;
+		background:#38444b;		
+		
+}
+
+#buscar{
+        
+		
+		width: 15.8em;
+		height:0.5em;
+		position:relative;
+	float:right;
+		
+		
+		
+}
+
+.centrar{
+margin: 0 auto;
+text-align: center;
+
+}
+
+.floatLeft
+{
+	float: left;
+}
+
+#contenedorNoticias
+{
+	width: 63.5em;	
+	height: 40em;
+	overflow-y: hidden !important;
+	overflow-x: scroll;	
+}
+
+#contenedorInfinito
+{
+	width: 1000em;
+}
+
+#noti
+{
+	float: left;
+	font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif;
+	margin: 1em;
+	width: 20em;
+	height: 35em;
+	padding: 0;
+	transition: 1s;
+}
+
+#noti:hover
+{
+	font-size: 17px;
+}
+
+#imagenVerNoticia
+{
+	max-width: 50em;
+}
+
+
+#parrafo
+{
+	margin: 0 0.5em;
+	transition: 1s;
+}
+
+#verNoticia
+{
+	font-size: 13px;
+	padding: 0.5em;
+	background: #38444b;
+	color: white;
+	margin-top: 1em;
+	transition: 1s;
+}
+
+#verNoticia:hover
+{	
+	background: #e4752f:
+}
+
+.lineaDivisora
+{
+	margin: 0 auto;
+	border-top: 0.1em solid #a3a8ab;
+	width: 15em;
+}
+
+#tituloTabla
+{
+	font-size: 18px;
+	color: white;
+	transition: 1s;
+}
+
+.fechaTabla
+{
+	color: white;
+}
+
+.imagenNoticia img
+{
+	margin: 0 auto;
+	margin-top: 1em;
+	max-width: 10em;
+	max-height: 10em;
+}
+
+.autorNoticia
+{
+	float: right;
+	font-size: 10px;
+	color: #9f9f9f;
+	margin: 0 3.8em 0.5em 0;
+}
+
+#noti table
+{
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+}
+
+#noti tr
+{
+	
+}
+
+#noti tr:first-child td
+{
+	border-radius: 5px 5px 0 0;
+	height: 10em;
+}
+
+#headerTabla
+{
+	border-radius: 5px 5px 0 0;
+	background: #38444b;
+	height: 10em;
+	transition: 1s;
+}
+
+#headerTabla:hover
+{
+	background: #e4752f;
+}
+
+#noti tr:nth-child(2) td
+{
+	border-right: 0.1em solid #a3a8ab;
+	border-left: 0.1em solid #a3a8ab;
+}
+
+
+#noti tr:last-child td
+{
+	height: 8em;
+	border-right: 0.1em solid #a3a8ab;
+	border-left: 0.1em solid #a3a8ab;
+	border-bottom: 0.1em solid #a3a8ab;
+	border-radius: 0 0 5px 5px;
+}
+
+#aparecePassword
+{
+	font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif;
+	transition: 1s;
+}
+
+#letrasPassword
+{
+	font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif;
+	visibility: hidden;
+	opacity: 0;
+	transition: 1s;
+}
+
+#inputPassword
+{
+	font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif;
+	visibility: hidden;
+	opacity: 0;
+	transition: 1s;
+}
+
+#botonIngresar
+{
+	font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif;
+	visibility: hidden;
+	opacity: 0;
+	transition: 1s;
+}
+
+#esconderPassword
+{
+	font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif;
+	visibility: hidden;
+	opacity: 0;
+	transition: 1s;
+}
+
+#revisarNoticia
+{
+	font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif;
+	margin: 2em 0 3em 0;
+	padding: 2em;
+	width: 55em;
+	height: 35em;
+	border: 2px solid #b2b2b2;
+	overflow: scroll;
+	overflow-x: hidden !important;
+}
+
+#autorRevisarNoticia
+{
+	float: right;
+	color: #b2b2b2;
+	margin: 2em;
+}
+
+#fechaRevisarNoticia
+{
+	color: #b2b2b2;
+}
+
+#menu{
+margin: 0 auto;
+text-align: center;
+background-color: #38444b;
+width: 95.626em;
+color: white; 
+font-family: Arial, sans serif; 
+font-size: 8pt; 
+font-weight: bold;
+
+
+}
+
+/*----------------------------------------------
+Acordeon de imagenes
+-----------------------------------------------*/
+
+.acordeon {
+   border-collapse:collapse;
+   padding:0px;
+   margin:0px auto;
+   width:690px;
+   height:400px;
+   box-shadow: 0 0 10px #333;
+}
+
+
+.acordeon td {
+   padding:0;
+   width:136px;
+   height:117px;
+   border:2px solid #fff;
+   -moz-transition: 0.7s;
+   -ms-transition: 0.7s;
+   -o-transition: 0.7s;
+   -webkit-transition: 0.7s;
+   transition: 0.7s;
+}
+
+.acordeon td.p1 {
+   background:url("1.png") no-repeat center center; }
+.acordeon td.p2 {
+   background:url("0.png") no-repeat center center; }
+.acordeon td.p3 {
+   background:url("2.png") no-repeat center center;}
+.acordeon td.p4 {
+   background:url("3.png") no-repeat center center;}
+.acordeon td.p5 {
+   background:url("4.png") no-repeat center center;}
+.acordeon td.p6 {
+   background:url("5.png") no-repeat center center;}
+
+
+   
+   
+.acordeon td {
+   width:50px;
+   height:50px;
+}
+
+.acordeon tr:hover td {
+   height:320px;
+}
+
+.acordeon td:hover {
+   width:480px;
+   height:320px;
+}  
+
+
+
+
+
+
+
+.box {
+width:730px;;
+height:430px;
+background:#e2e2e2;
+margin:40px auto;
+}
+/*==================================================
+* Efecto 8
+* ===============================================*/
+.effect8
+{
+position:relative;
+-webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+-moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+}
+.effect8:before, .effect8:after
+{
+content:"";
+position:absolute;
+z-index:-1;
+-webkit-box-shadow:0 0 20px rgba(0,0,0,0.8);
+-moz-box-shadow:0 0 20px rgba(0,0,0,0.8);
+box-shadow:0 0 20px rgba(0,0,0,0.8);
+top:10px;
+bottom:10px;
+left:0;
+right:0;
+-moz-border-radius:100px / 10px;
+border-radius:100px / 10px;
+}
+.effect8:after
+{
+right:10px;
+left:10px;
+-webkit-transform:skew(8deg) rotate(3deg);
+-moz-transform:skew(8deg) rotate(3deg);
+-ms-transform:skew(8deg) rotate(3deg);
+-o-transform:skew(8deg) rotate(3deg);
+transform:skew(8deg) rotate(3deg);
+}
+
+.botonVerMas
+{
+	padding:0.5em; 
+	background-color: #38444b; 
+	font-size:0.1em; 
+	transition:0.6s; 
+	opacity:0; 
+	float:left;
+	text-decoration: none;
+	color: white;
+}
+
+/*--------------------------------------------------------
+FIN ACORDEON IMAGENES
+---------------------------------------------------------/*
+
+
+/*-----------------------------------------------------------
+IMAGEN DESLIZANTE
+---------------------------------------------------------*/
+
+.vista {
+    width: 300px;
+    height: 200px;
+   	margin-left:200px;
+    float: left;
+    border: none;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    box-shadow: 1px 1px 2px #e6e6e6;
+    cursor: default;
+}
+.vista .mascara, .vista .contenido {
+    width: 300px;
+    height: 200px;
+    position: absolute;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+}
+.vista img {
+    display: block;
+    position: relative;
+}
+.vista h2 {
+    text-transform: uppercase;
+    color: #fff;
+    text-align: center;
+    position: relative;
+    font-size: 17px;
+    padding: 10px;
+    background: hsla(0,0%,0%,0.8);
+    margin: 20px 0 0 0;
+}
+.vista p {
+    font-family: Georgia, serif;
+    font-style: italic;
+    font-size: 12px;
+    position: relative;
+    color: #fff;
+    padding: 10px 20px 20px;
+    text-align: center;
+}
+.vista a.informacion {
+    display: inline-block;
+    text-decoration: none;
+    padding: 7px 14px;
+    background: #000;
+    color: #fff;
+    text-transform: uppercase;
+    box-shadow: 0 0 1px #000;
+}
+.vista a.informacion:hover {
+    box-shadow: 0 0 5px #000
+}
+/******************************************************************************/
+/* Estilos para ejemplo 1 */
+.vista img {
+    -webkit-transition: all 0.2s linear;
+    -moz-transition: all 0.2s linear;
+    -o-transition: all 0.2s linear;
+    -ms-transition: all 0.2s linear;
+    transition: all 0.2s linear;
+}
+.vista .mascara {
+    opacity: 0;
+    background-color: hsla(28,100%,49%,0.47);
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    -ms-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+}
+.vista h2 {
+    opacity: 0;
+    -webkit-transform: translateY(-100px);
+    -moz-transform: translateY(-100px);
+    -o-transform: translateY(-100px);
+    -ms-transform: translateY(-100px);
+    transform: translateY(-100px);
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    -ms-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+.vista p { 
+    opacity: 0;
+    -webkit-transform: translateY(100px);
+    -moz-transform: translateY(100px);
+    -o-transform: translateY(100px);
+    -ms-transform: translateY(100px);
+    transform: translateY(100px);
+    -webkit-transition: all 0.2s linear;
+    -moz-transition: all 0.2s linear;
+    -o-transition: all 0.2s linear;
+    -ms-transition: all 0.2s linear;
+    transition: all 0.2s linear;
+}
+.vista a.informacion{
+    opacity: 0;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    -ms-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+.vista:hover img { 
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+} 
+.vista:hover .mascara { 
+    opacity: 1;
+}
+.vista:hover h2,
+.vista:hover p,
+.vista:hover a.informacion {
+    opacity: 1;
+    -webkit-transform: translateY(0px);
+    -moz-transform: translateY(0px);
+    -o-transform: translateY(0px);
+    -ms-transform: translateY(0px);
+    transform: translateY(0px);
+}
+.vista:hover p {
+    -webkit-transition-delay: 0.1s;
+    -moz-transition-delay: 0.1s;
+    -o-transition-delay: 0.1s;
+    -ms-transition-delay: 0.1s;
+    transition-delay: 0.1s;
+}
+.vista:hover a.informacion {
+    -webkit-transition-delay: 0.2s;
+    -moz-transition-delay: 0.2s;
+    -o-transition-delay: 0.2s;
+    -ms-transition-delay: 0.2s;
+    transition-delay: 0.2s;
+}
+
+
+#mover{
+margin-left:30px;
+
+}
+
+/*----------------------------------------------------------
+TERMINA IMAGEN DESLIZANTE
+------------------------------------------------------------*/
+
+
+/*--------------------------------------------------------------
+DIV PRODUCTOS
+------------------------------------------------------------*/
+.box2 {
+padding:1em;
+width:700px;
+height:450px;
+
+margin:60px auto;
+}
+
+/*------------------------------------------
+FIN DIV PRODUCTOS
+-------------------------------------------*/
+

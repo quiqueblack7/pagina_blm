@@ -1,0 +1,107 @@
+.pathway {
+	color: #2E77AE;
+	font-size: 11pt;
+	font-family: Tahoma;
+	font-weight:bold;
+	padding-right:5px;
+	}
+
+.pageContent {
+	color: #817E77;
+	font-size: 9pt;
+	font-family: Tahoma;
+	padding-left:30px;
+	padding-right:20px;
+	padding-top:10px;
+	padding-bottom:10px;
+	
+}
+
+
+.company {
+	font-size: 12pt;
+	font-family: Tahoma;
+	color:#FFFFFF;
+	font-weight:bold;
+	
+}
+.slogan {
+	font-size: 10pt;
+	font-family: Tahoma;
+	color: #ffffff;
+}
+.copyright {
+	color: #818181;
+	font-size: 9pt;
+	font-family: Tahoma;
+	text-align: center;
+}
+/*main menu*/
+.tmenu {
+	font-size: 9pt;
+	font-family: Tahoma;
+	color: #ffffff;
+	text-decoration: underline;
+	text-align: center;
+	padding-top:10px;
+	padding-bottom:10px;
+	font-weight: bold;
+	
+	
+}
+
+
+.tmenua {
+	font-size: 9pt;
+	font-family: Tahoma;
+	color: #ffffff;
+	text-align: center;
+	text-decoration: none;
+	padding-top:10px;
+	padding-bottom:10px;
+	font-weight: bold;	
+}
+
+.t1 {
+padding:3px;
+
+}
+
+/*submenu*/
+.smenua {
+	font-size: 8pt;
+	color: #FAFEFF;
+	font-family: Tahoma;
+	text-left: right;
+	text-decoration: none;
+	padding-top:5px;
+	padding-bottom:5px;
+	
+}
+.smenu {
+	font-size: 8pt;
+	color: #FAFEFF;
+	font-family: Tahoma;
+	text-align: left;
+	text-decoration: underline;
+	padding-top:5px;
+	padding-bottom:5px;
+	
+}
+
+
+/*bottom*/
+.bmenu {
+	font-size: 9pt;
+	font-family: Tahoma;
+	color: #454545;
+	text-decoration:underline;
+	text-align: center;
+}
+.bmenua {
+	font-size: 9pt;
+	font-family: Tahoma;
+	color: #454545;
+	text-decoration:none;
+	text-align: center;
+}

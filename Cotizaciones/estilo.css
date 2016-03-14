@@ -1,0 +1,425 @@
+* 
+{
+	margin: 0;
+	padding: 0;
+}
+
+body
+{
+	background: #FFF7F3;
+	font-family: sans-serif;
+	color: #383838;
+	padding: 0.5em;
+}
+
+#pagina
+{
+	background: #F9F9F9;
+	width: 66em;
+	height: 45.5em;
+	margin: 0 auto;
+	box-sizing: border-box;
+	border: solid #F2EBE7;
+	border-width: 0.1em;
+	padding: 1.5em;
+	padding-bottom: 3em;
+}
+
+#cliente
+{
+	margin-left: 2em;
+	width: 19em;
+	height: 10.5em;
+	border: solid black;
+	border-width: 0.1em;
+	border-radius: 0.5em 0 0 0.5em;
+	line-height: 1em;
+}
+
+.cliente_bot_left
+{
+	width: 60%;
+}		
+
+.cliente_bot_right
+{
+	width: 25%;
+}		
+
+#cotizacion
+{
+	width: 13.5em;
+	height: 10.5em;
+	border: solid black;
+	border-width: 0.1em;
+	border-left: none;
+	border-right: none;
+}		
+
+#no
+{
+	width: 13.5em;
+	height: 10.5em;
+	border: solid black;
+	border-radius: 0 0.5em 0.5em 0;
+	border-width: 0.1em;
+}
+
+#project-area
+{
+	font-size: 10px;
+	resize: none;
+	width: 98%;
+	height: 4.2em;
+	box-sizing: border-box;
+	padding: 0.3em;
+}
+
+.izquierda
+{
+	float: left;
+}
+
+.derecha
+{
+	float: right;
+}
+
+.padding
+{
+	padding: 1.7em;
+}
+
+.paddingleft
+{
+	padding-left: 0.2em;
+}		
+
+.normalpaddingright
+{
+	padding-right: 7em;
+}		
+
+.bigpaddingleft
+{
+	padding-left: 3em;
+}
+
+.bigpaddingright
+{
+	padding-right: 11em;
+}
+
+.padrl
+{
+	padding: 0 0.5em 0 0.5em;
+}
+
+.padtb
+{
+	padding: 0.2em 0 0.2em 0;
+}
+
+.titulo
+{
+	font-size: 0.9em;			
+}		
+
+.titulo2
+{
+	font-size: 0.6em;			
+}
+
+.parrafo
+{
+	font-size: 0.7em;
+}		
+
+.parrafo2
+{
+	font-size: 0.7em;
+}
+
+.terminos
+{
+	font-size: 0.6em;
+}
+
+.black
+{
+	background: black;
+	color: #F9F9F9;
+}
+
+.center
+{
+	text-align: center;
+}
+
+.justify
+{
+	text-align: justify;
+}
+
+.break
+{
+	clear: both;
+}
+
+.table 
+{
+	margin-left: 1.8em;
+	width: 59.2em;
+	border:0.1em solid #000000;
+	border-radius: 0.3em;
+	
+}
+
+.table table
+{
+	border-collapse: collapse;
+	border-spacing: 0;
+	width:100%;
+	height:100%;
+}
+
+.table tr:last-child td:last-child 
+{
+	border-bottom-right-radius:0.5em;
+}
+
+.table table tr:first-child td:first-child 
+{
+	border-top-left-radius:0.5em;
+}
+
+.table table tr:first-child td:last-child 
+{
+	border-top-right-radius:0.5em;
+}
+
+.table tr:last-child td:first-child
+{
+	border-bottom-left-radius: 0.5em;
+}
+
+.table tr:hover td
+{
+	background-color:#ffffff;
+}
+
+.table td
+{
+	vertical-align:middle;			
+	background-color:#ffffff;
+	border:0.1em solid #000000;
+	border-width:0 0.1em 0.1em 0;
+	text-align:left;
+	padding:0.1em;
+	font-size:0.6em;
+	font-family:Arial;
+	font-weight:normal;
+	color:#000000;
+	text-align: center;
+}				
+
+.table tr:last-child td
+{
+	border-width:0 0.1em 0 0;
+}
+
+.table tr td:last-child
+{
+	border-width:0 0 0.1em 0;
+}
+
+.table tr:last-child td:last-child
+{
+	border-width:0 0 0 0;
+}
+
+.table tr:first-child td
+{
+	background-color:#E6712B;
+	text-align:center;
+	border-width:0 0 0.1em 0.1em;
+	font-size:0.6em;
+	font-family:Arial;
+	font-weight:bold;
+	color:#ffffff;
+}
+
+.table tr:first-child:hover td
+{
+	background-color:#ffaa56;
+}
+
+.table tr:first-child td:first-child
+{
+	border-width:0 0 0.1em 0;
+}
+
+.table tr:first-child td:last-child
+{
+	border-width:0 0 0.1em 0.1em;
+}
+
+.table hr
+{
+	margin: 0.2em 0 0.2em 0;
+}
+
+.right_a
+{
+	text-align: right;
+}
+
+#uno
+{
+	width: 3em;
+}		
+
+#dos
+{
+	width: 8.5em;
+}		
+
+#tres
+{
+	width: 60em;
+}		
+
+#cuatro
+{
+	width: 3em;
+}		
+
+#cinco
+{
+	width: 1em;
+}		
+
+#seis
+{
+	width: 2em;
+}		
+
+
+#pie
+{
+	margin: 0 auto;
+	width: 59.7em;
+	height: 9.8em;
+}
+
+#clausulas
+{		
+	float: left;
+	width: 42%;
+	height: 100%;
+	border: solid black;
+	border-width: 0.1em;
+	border-radius: 0.3em 0 0 0.3em;
+}
+
+#firmas
+{
+	width: 35%;
+	height: 100%;
+	float: left;
+	border: solid black;
+	border-left: none;
+	border-width: 0.1em;
+	border-radius: 0 0.3em 0.3em 0;
+	line-height: 1em;
+}
+
+.bold
+{
+	font-weight: bold;
+}
+
+#conceptos
+{
+	float: left;
+	width: 50%;
+	height: 8em;
+	line-height: 1em;
+}
+
+#dinero
+{
+	margin-right: 0.5em;
+	float: right;
+	width: 12em;
+	border: solid black;
+	border-width: 0.1em;
+	border-radius: 0.3em 0.3em 0.3em 0.3em;
+}		
+
+#cantidades
+{
+	float: right;
+	width: 49.0%;
+	border-left: solid black;
+	border-width: 0.1em;
+	line-height: 2.1em;
+}
+
+#tamaniotabla
+{
+	height: 18em;
+}
+
+#imprimir
+{
+	background: #ECBB00;
+	border: none;
+	border-radius: 0.3em;
+	padding: 0.3em;
+	font-weight: bold;
+	margin-top: 2em;
+}
+
+#imprimir:active
+{
+	padding: 0.2em;
+	color: white;
+}
+
+.blue
+{
+	background: #218191 ;
+}
+
+.yellow
+{
+	background: #EBD900;
+}
+
+.green
+{
+	background: #00FF93;
+}
+
+.white-font
+{
+	color: white;
+}
+
+.red-font
+{
+	color: red;
+}
+
+.bold-font
+{
+	font-weight: bold;
+}
+
+.tabla table
+{
+	border: solid black;
+	border-width: 0.1em;
+	border-radius: 0.3em 0.3em 0.3em 0.3em;
+}

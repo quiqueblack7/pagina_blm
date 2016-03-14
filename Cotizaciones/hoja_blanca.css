@@ -1,0 +1,39 @@
+#hoja{
+
+    height: auto;
+    width: 1070px;
+
+
+
+    background: rgba(255,255,255,1);
+    background: -moz-linear-gradient(-45deg, rgba(255,255,255,1) 0%, rgba(245,245,245,1) 65%, rgba(237,237,237,1) 70%, rgba(237,237,237,1) 75%, rgba(224,224,224,1) 80%, 
+        rgba(214,214,214,1) 85%, rgba(196,196,196,1) 90%, rgba(176,176,176,1) 95%, rgba(130,130,130,1) 100%);
+    background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(255,255,255,1)), color-stop(65%, rgba(245,245,245,1)), color-stop(70%, rgba(237,237,237,1)),
+        color-stop(75%, rgba(237,237,237,1)), color-stop(80%, rgba(224,224,224,1)), color-stop(85%, rgba(214,214,214,1)), color-stop(90%, rgba(196,196,196,1)), color-stop(95%,
+        rgba(176,176,176,1)), color-stop(100%, rgba(130,130,130,1)));
+    background: -webkit-linear-gradient(-45deg, rgba(255,255,255,1) 0%, rgba(245,245,245,1) 65%, rgba(237,237,237,1) 70%, rgba(237,237,237,1) 75%, rgba(224,224,224,1) 80%,
+        rgba(214,214,214,1) 85%, rgba(196,196,196,1) 90%, rgba(176,176,176,1) 95%, rgba(130,130,130,1) 100%);
+    background: -o-linear-gradient(-45deg, rgba(255,255,255,1) 0%, rgba(245,245,245,1) 65%, rgba(237,237,237,1) 70%, rgba(237,237,237,1) 75%, rgba(224,224,224,1) 80%,
+        rgba(214,214,214,1) 85%, rgba(196,196,196,1) 90%, rgba(176,176,176,1) 95%, rgba(130,130,130,1) 100%);
+    background: -ms-linear-gradient(-45deg, rgba(255,255,255,1) 0%, rgba(245,245,245,1) 65%, rgba(237,237,237,1) 70%, rgba(237,237,237,1) 75%, rgba(224,224,224,1) 80%,
+        rgba(214,214,214,1) 85%, rgba(196,196,196,1) 90%, rgba(176,176,176,1) 95%, rgba(130,130,130,1) 100%);
+    background: linear-gradient(135deg, rgba(255,255,255,1) 0%, rgba(245,245,245,1) 65%, rgba(237,237,237,1) 70%, rgba(237,237,237,1) 75%, rgba(224,224,224,1) 80%,
+        rgba(214,214,214,1) 85%, rgba(196,196,196,1) 90%, rgba(176,176,176,1) 95%, rgba(130,130,130,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#828282', GradientType=1 );
+
+
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(101,101,101,1);
+-moz-box-shadow: 10px 10px 5px 0px rgba(101,101,101,1);
+box-shadow: 10px 10px 5px 0px rgba(101,101,101,1); 
+
+}
+
+.h7{
+    color:black;
+}
+
+.h8{
+    color:black;
+    font-size: 12px;
+}
+

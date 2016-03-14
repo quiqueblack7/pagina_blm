@@ -1,0 +1,62 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/*
+DEMO 4
+*/
+
+.a_demo_four {
+	background-color:#4c4c4c;
+	font-family: 'Open Sans', sans-serif;
+	font-size:12px;
+	text-decoration:none;
+	color:#fff;
+	position:relative;
+	padding:10px 20px;
+	padding-right:50px;
+	
+	background-image: -webkit-gradient(linear,left bottom,left top, color-stop(0%, rgba(76,76,76,1)),color-stop(100%, rgba(56,68,75,0.69)));
+	
+	border-radius: 5px;
+	
+	box-shadow: inset 0px 1px 0px #4c4c4c, 0px 5px 0px 0px #38444b, 0px 10px 5px #999;
+}
+
+.a_demo_four:active {
+	top:3px;
+	background-image: linear-gradient(bottom,rgba(76,76,76,1) 0%,rgba(56,68,75,0.69) 100%);
+	background-image: -o-linear-gradient(bottom, rgba(76,76,76,1) 0%, rgba(56,68,75,0.69) 100%);
+	background-image: -moz-linear-gradient(bottom, rgba(76,76,76,1) 0%, rgba(56,68,75,0.69) 100%);
+	background-image: -webkit-linear-gradient(bottom, rgba(76,76,76,1) 0%, rgba(56,68,75,0.69) 100%);
+	background-image: -ms-linear-gradient(bottom, rgba(76,76,76,1) 0%, rgba(56,68,75,0.69) 100%);
+	background-image: -webkit-gradient(linear,left bottom,left top,color-stop(0%, rgba(76,76,76,1)),color-stop(100%, rgba(56,68,75,0.69)));
+	-webkit-box-shadow: inset 0px 1px 0px #4c4c4c, 0px 2px 0px 0px #38444b, 0px 5px 3px #999;
+	-moz-box-shadow: inset 0px 1px 0px #4c4c4c, 0px 2px 0px 0px #38444b, 0px 5px 3px #999;
+	-o-box-shadow: inset 0px 1px 0px #4c4c4c, 0px 2px 0px 0px #38444b, 0px 5px 3px #999;
+	box-shadow: inset 0px 1px 0px #4c4c4c, 0px 2px 0px 0px #38444b, 0px 5px 3px #999;
+}
+
+.a_demo_four::before {
+	background-color:#38444b;
+	background-image:url(../images/right_arrow.png);
+	background-repeat:no-repeat;
+	background-position:center center;
+	content:"";
+	width:20px;
+	height:20px;
+	position:absolute;
+	right:15px;
+	top:50%;
+	margin-top:-9px;
+	border-radius: 50%;
+	box-shadow: inset 0px 1px 0px #052756, 0px 1px 0px #2b2b2b;
+}
+
+.a_demo_four:active::before {
+	top:50%;
+	margin-top:-12px;
+	-webkit-box-shadow: inset 0px 1px 0px #052756, 0px 3px 0px #2b2b2b;, 0px 6px 3px #1a80a6;
+	-moz-box-shadow: inset 0px 1px 0px #052756, 0px 3px 0px #2b2b2b;, 0px 6px 3px #1a80a6;
+	-o-box-shadow: inset 0px 1px 0px #052756, 0px 3px 0px #2b2b2b;, 0px 6px 3px #1a80a6;
+	box-shadow: inset 0px 1px 0px #052756, 0px 3px 0px #2b2b2b;, 0px 6px 3px #1a80a6;
+}
