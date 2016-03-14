@@ -30,13 +30,13 @@
                 window.location = union;
             }
         }
-    </script> 
+    </script>
 
     <body onload="initDoc();">
         <div id="page">
             <div id="header">
                 <h1>Bestlight M&eacute;xico S.A. de C.V.</h1>
-            </div> 
+            </div>
             <?php
             //Capturamos el usuario autenticado
             session_start();
@@ -71,8 +71,8 @@
 
 
                         <?php
-                        if (!isset($_SESSION['usuario'])) {
-                            header('Location: log_in.php');
+                        if (!isset($_SESSION['usuarioc'])) {
+                            header('Location: index.php');
                         }
                         $id_cotizacion = $_SESSION['cotizacion'];
 
@@ -84,7 +84,7 @@
 
                         $siguiente = 1;
 //Obtener Datos de las notas "tabla notas"
-                        $sql = "SELECT * FROM `Notas` WHERE `id_cotizacion`='$id_cotizacion'";
+                        $sql = "SELECT * FROM Notas WHERE id_cotizacion='$id_cotizacion'";
                         $resultado = query($sql, $con);
                         while ($campo = mysql_fetch_array($resultado)) {
                             echo
@@ -109,9 +109,9 @@
                             </body>
                         </td>
 
-                        <td> 
+                        <td>
                             <?php if ($siguiente > 0) { ?>
-                                <?php if ($cancelar == 0) { ?> 
+                                <?php if ($cancelar == 0) { ?>
                                     <a href="descuentos.php"><input type="button" value="Siguiente" id="botonp"></a>
                                 <?php } else { ?>
                                     <a href="descuentos.php"><input type="button" value="Siguiente" id="botonp"></a>
@@ -135,18 +135,3 @@
                     <?php } ?>
 
                 </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

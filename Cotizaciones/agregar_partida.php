@@ -16,7 +16,7 @@ $conexion = conectar();
         <meta name="description" content="" />
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
         <meta name="language" content="en" />
-        <link href="style.css" rel="stylesheet" type="text/css" />   
+        <link href="style.css" rel="stylesheet" type="text/css" />
     </head>
 
     <script type="text/javascript" src="tinymce/tinymce.min.js"></script>
@@ -104,7 +104,7 @@ if (isset($_GET['partida'])) {
 
 if (isset($_GET['catalogo'])) {
     $catalogo = $_GET['catalogo'];
-    $sql = "SELECT * FROM Catalogo where id_catalogo='$catalogo' ";
+    $sql = "SELECT * FROM Catalogo where catalogo='$catalogo' ";
     $resultado = query($sql, $conexion);
     $campo = mysql_fetch_array($resultado);
     $descripcion = $campo['descripcion'];
@@ -179,7 +179,7 @@ if ($formu == 1) {
                             <!-- No hay required -->
 
                             <div id="izq">Precio unitario:</div><input type="number" class="cajita" name="precio_uni" placeholder="Precio unitario" id="precio"  size="15" min="0" step="any"><br><br><br>
-							
+
 							<div id="izq">Descuento (porcentaje):</div><input type="number" class="cajita float_left" name="descuento" placeholder="Descuento" id="precio"  size="15" min="0" step="any"><div class="color">%</div><br><br><br><br>
                         </td></tr>
                 </div>
@@ -195,5 +195,3 @@ if ($formu == 1) {
 
 
             <div align="left" <?php if ($formu == 1) { ?>style="margin-top:-45px;" <?php } ?>><a href="partidas.php"><input type="button" value="Atras" id="botonp"></a></div></div>
-
-

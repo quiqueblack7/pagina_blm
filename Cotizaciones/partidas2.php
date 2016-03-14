@@ -4,10 +4,10 @@
 session_start();
 
 
-if (!isset($_SESSION['usuario'])) {
-    header('Location: log_in.php');
+if (!isset($_SESSION['usuarioc'])) {
+    header('Location: index.php');
 }
-$id_usuario = $_SESSION['usuario'];
+$id_usuario = $_SESSION['usuarioc'];
 $id_cotizacion = $_SESSION['cotizacion'];
 
 //incluimos el archivo con las funciones
@@ -30,19 +30,19 @@ $precio_total = $precio_uni * $cantidad;
 
 
 $string = str_replace(
-        array('à', 'ä', 'â', 'ª', 'À', 'Â', 'Ä', 'è', 'ë', 'ê', 'È', 'Ê', 'Ë', 'ì', 'ï', 'î', 'Ì', 'Ï', 'Î', 'ò', 'ö', 'ô', 'Ò', 'Ö', 'Ô', 'ù', 'ü', 'û', 'Ù', 'Û', 'Ü', "'"), array('á', 'a', 'a', 'a', 'Á', 'A', 'A', 'é', 'e', 'e', 'É', 'E', 'E', 'í', 'i', 'i', 'Í', 'I', 'I', 'ó', 'o', 'o', 'Ó', 'O', 'O', 'ú', 'u', 'u', 'Ú', 'U', 'U', "`"), $string
+        array('ï¿½', 'ï¿½', 'ï¿½', 'ï¿½', 'ï¿½', 'ï¿½', 'ï¿½', 'ï¿½', 'ï¿½', 'ï¿½', 'ï¿½', 'ï¿½', 'ï¿½', 'ï¿½', 'ï¿½', 'ï¿½', 'ï¿½', 'ï¿½', 'ï¿½', 'ï¿½', 'ï¿½', 'ï¿½', 'ï¿½', 'ï¿½', 'ï¿½', 'ï¿½', 'ï¿½', 'ï¿½', 'ï¿½', 'ï¿½', 'ï¿½', "'"), array('ï¿½', 'a', 'a', 'a', 'ï¿½', 'A', 'A', 'ï¿½', 'e', 'e', 'ï¿½', 'E', 'E', 'ï¿½', 'i', 'i', 'ï¿½', 'I', 'I', 'ï¿½', 'o', 'o', 'ï¿½', 'O', 'O', 'ï¿½', 'u', 'u', 'ï¿½', 'U', 'U', ""), $string
 );
 
 $string2 = str_replace(
-        array('à', 'ä', 'â', 'ª', 'À', 'Â', 'Ä', 'è', 'ë', 'ê', 'È', 'Ê', 'Ë', 'ì', 'ï', 'î', 'Ì', 'Ï', 'Î', 'ò', 'ö', 'ô', 'Ò', 'Ö', 'Ô', 'ù', 'ü', 'û', 'Ù', 'Û', 'Ü', "'"), array('á', 'a', 'a', 'a', 'Á', 'A', 'A', 'é', 'e', 'e', 'É', 'E', 'E', 'í', 'i', 'i', 'Í', 'I', 'I', 'ó', 'o', 'o', 'Ó', 'O', 'O', 'ú', 'u', 'u', 'Ú', 'U', 'U', "`"), $string2
+        array('ï¿½', 'ï¿½', 'ï¿½', 'ï¿½', 'ï¿½', 'ï¿½', 'ï¿½', 'ï¿½', 'ï¿½', 'ï¿½', 'ï¿½', 'ï¿½', 'ï¿½', 'ï¿½', 'ï¿½', 'ï¿½', 'ï¿½', 'ï¿½', 'ï¿½', 'ï¿½', 'ï¿½', 'ï¿½', 'ï¿½', 'ï¿½', 'ï¿½', 'ï¿½', 'ï¿½', 'ï¿½', 'ï¿½', 'ï¿½', 'ï¿½', "'"), array('ï¿½', 'a', 'a', 'a', 'ï¿½', 'A', 'A', 'ï¿½', 'e', 'e', 'ï¿½', 'E', 'E', 'ï¿½', 'i', 'i', 'ï¿½', 'I', 'I', 'ï¿½', 'o', 'o', 'ï¿½', 'O', 'O', 'ï¿½', 'u', 'u', 'ï¿½', 'U', 'U', ""), $string2
 );
 
 $string3 = str_replace(
-        array('à', 'ä', 'â', 'ª', 'À', 'Â', 'Ä', 'è', 'ë', 'ê', 'È', 'Ê', 'Ë', 'ì', 'ï', 'î', 'Ì', 'Ï', 'Î', 'ò', 'ö', 'ô', 'Ò', 'Ö', 'Ô', 'ù', 'ü', 'û', 'Ù', 'Û', 'Ü', "'"), array('á', 'a', 'a', 'a', 'Á', 'A', 'A', 'é', 'e', 'e', 'É', 'E', 'E', 'í', 'i', 'i', 'Í', 'I', 'I', 'ó', 'o', 'o', 'Ó', 'O', 'O', 'ú', 'u', 'u', 'Ú', 'U', 'U', "`"), $string3
+        array('ï¿½', 'ï¿½', 'ï¿½', 'ï¿½', 'ï¿½', 'ï¿½', 'ï¿½', 'ï¿½', 'ï¿½', 'ï¿½', 'ï¿½', 'ï¿½', 'ï¿½', 'ï¿½', 'ï¿½', 'ï¿½', 'ï¿½', 'ï¿½', 'ï¿½', 'ï¿½', 'ï¿½', 'ï¿½', 'ï¿½', 'ï¿½', 'ï¿½', 'ï¿½', 'ï¿½', 'ï¿½', 'ï¿½', 'ï¿½', 'ï¿½', "'"), array('ï¿½', 'a', 'a', 'a', 'ï¿½', 'A', 'A', 'ï¿½', 'e', 'e', 'ï¿½', 'E', 'E', 'ï¿½', 'i', 'i', 'ï¿½', 'I', 'I', 'ï¿½', 'o', 'o', 'ï¿½', 'O', 'O', 'ï¿½', 'u', 'u', 'ï¿½', 'U', 'U', ""), $string3
 );
 
 
-$sql = "SELECT `id_partida` FROM Partidas where id_cotizacion='$id_cotizacion' ORDER BY `id_partida` DESC LIMIT 1";
+$sql = "SELECT id_partida FROM Partidas where id_cotizacion='$id_cotizacion' ORDER BY id_partida DESC LIMIT 1";
 $resultado = query($sql, $conexion);
 $campo = mysql_fetch_row($resultado);
 if ($campo[0] == '') {
@@ -56,8 +56,8 @@ if ($campo[0] == '') {
 $sql = "INSERT INTO Partidas (no_partida, id_partida, id_cotizacion, partida, cantidad, unidad, catalogo, descripcion, precio_uni, precio_total) VALUES ('$id_partida','$id_partida','$id_cotizacion','$string','$cantidad','$unidad','$string2','$string3','$precio_uni','$precio_total')";
 $resultado = query($sql, $conexion);
 
-/*
+
 if ($resultado) {
     header("Location: partidas.php");
-}*/
+}
 ?>

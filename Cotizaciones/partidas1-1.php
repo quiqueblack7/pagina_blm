@@ -3,7 +3,7 @@ if (!isset($_GET['catalogo']))
     $catalogo = null;
 else
     $catalogo = $_GET['catalogo'];
-?> 
+?>
 
 <!DOCTYPE html >
 <html>
@@ -47,7 +47,7 @@ else
                     <?php
 //Capturamos el usuario autenticado
                     session_start();
-                    $id_usuario = $_SESSION['usuario'];
+                    $id_usuario = $_SESSION['usuarioc'];
 
                     header('Content-Type: text/html; charset=UTF-8');
 
@@ -195,11 +195,11 @@ if ($catalogo != "") {
                     <table>
                         <tr><td>
                                 <input type="submit" value="Agrgar Partida[+]" >
-                                </form> 
+                                </form>
 
                             </td>
 
-                            <td> 
+                            <td>
                                 <a href="notas.php"><input type="button" value="Siguiente"></a>
                             </td>
 
@@ -211,12 +211,3 @@ if ($catalogo != "") {
 <?php
 echo $catalogo;
 ?>
-
-
-
-
-
-
-
-
-

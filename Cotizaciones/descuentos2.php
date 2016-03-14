@@ -9,8 +9,8 @@ session_start();
 //Funcion que conecta la base de datos
 $con = conectar();
 
-if (!isset($_SESSION['usuario'])) {
-    header('Location: log_in.php');
+if (!isset($_SESSION['usuarioc'])) {
+    header('Location: index.php');
 }
 $id_cotizacion = $_SESSION['cotizacion'];
 $descuento = $_POST['descuento'];
@@ -27,5 +27,3 @@ if (isset($_SESSION['cancelar'])) {
     header("Location: form_cotizacion.php");
 }
 ?>
-        
-
